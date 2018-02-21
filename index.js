@@ -6,8 +6,8 @@ client.on("message", message => {
 });
 
 client.on('message', msg => {
-  if (msg.content === "hey cj") {
-    msg.reply("**Shut the fuck up, Bitch!**");
+  if (msg.content.toLowerCase()=== "what's ya order?") {
+    msg.reply("I'll have 2 number nines, a number nine large, a number six with extra dip, a number seven, 2 number 45's, one with cheese and a large soda.");
   }
 });
                  
