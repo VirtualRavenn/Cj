@@ -6,7 +6,7 @@ client.on("message", message => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase()=== "@Cj#7244") {
+  if (msg.content.toLowerCase()=== "@Cj") {
     msg.reply("**Shut the fuck up, Bitch!**");
   }
 });
