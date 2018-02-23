@@ -10,7 +10,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "416418286184431636") message.reply("**Fool** you aren't suppose to be in here.");
+  if (message.author.id === "416418286184431636") message.reply("I don't want a **nightstick up the ass**.");
 });
 
 client.on('message', msg => {
