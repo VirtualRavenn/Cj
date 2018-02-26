@@ -14,7 +14,7 @@ client.on("message", message => {
 });417500499424706560
 
 client.on("message", message => {
-  if (message.author.id === "417500499424706560") message.reply("I don't want a **OH SHIT!**");
+  if (message.author.id === "417500499424706560") message.reply("**OH SHIT!**");
 });
 
 client.on('message', msg => {
